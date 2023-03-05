@@ -23,6 +23,7 @@ export class CardList extends LitElement {
         bottomText = 'Is Not Fun';
         imgURL = 'https://ist.psu.edu/sites/default/files/directory/Hozza-David.jpg';
         description = 'Details';
+        <slot name="bing"></slot>
       ></professor-card>
       <professor-card>
       </professor-card>
